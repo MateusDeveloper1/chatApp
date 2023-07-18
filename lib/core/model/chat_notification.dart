@@ -2,9 +2,8 @@ class ChatNotification {
   final String title;
   final String body;
 
-
-  ChatNotification(
-    this.title,
-    this.body,
-  );
+  ChatNotification({
+    required this.title,
+    required this.body,
+  });
 }
